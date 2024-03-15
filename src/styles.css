@@ -1,5 +1,5 @@
 body {
-    background-image: url("https: //www.urlaubstracker.de/wp-content/uploads/2018/01/frankreich-paris-eiffelturm-fluss-1000x667.jpg");
+    background-image: url("https://www.pixel4k.com/wp-content/uploads/2018/03/Eiffel%20Tower%20Paris%20France5402514035.jpg.webp");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -11,7 +11,7 @@ main {
 }
 
 .weather-app {
-    background: rgba(161, 1, 76, 0.9);
+    background: rgba(242, 237, 250, 0.9);
     max-width: 600px;
     margin: 30px auto;
     padding: 30px;
@@ -20,7 +20,7 @@ main {
 }
 
 .search-form-input {
-    background: #ad016b;
+    background: #faecf5;
     border: none;
     width: 80%;
     border-radius: 8px;
@@ -30,7 +30,7 @@ main {
 }
 
 .search-form-button {
-    background: #750141;
+    background: #b30b67;
     padding: 15px 20px;
     border: none;
     border-radius: 8px;
@@ -57,6 +57,7 @@ main {
 .weather-app-city {
     margin: 0;
     font-size: 50px;
+    color: #b30b67;
 }
 
 .weather-app-info {
@@ -66,13 +67,13 @@ main {
 .weather-app-info-day {
     font-size: 22px;
     font-weight: 300;
-    color: rgb(181, 115, 158);
+    color: rgba(246, 74, 174, 0.8);
 }
 
 .weather-app-info em {
     font-size: 16px;
     line-height: 20px;
-    color: rgb(245, 245, 245, 0.8);
+    color: rgba(246, 74, 174, 0.8);
 }
 
 .temperature-container {
@@ -82,6 +83,7 @@ main {
 .temperature-number {
     font-size: 88px;
     line-height: 88px;
+    color:#b30b67 ;
 }
 
 .temperature-value {
@@ -133,7 +135,7 @@ footer {
     font-size: 11px;
     text-align: center;
     margin: 30px 0 10px 0;
-    color: rgb(245, 245, 245, 0.8);
+    color: rgba(116, 2, 46, 0.8);
 }
 
 footer a {
