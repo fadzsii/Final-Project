@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <title>Weather Application</title>
+</head>
+
+<body>
+    <div class="weather-app">
+        <header>
+            <form class="search-form" id="search-form">
+                <input type="search" placeholder="Enter a city..." required class="search-form-input"
+                    id="search-form-input" />
+                <input type="submit" value="Search" class="search-form-button" />
+            </form>
+        </header>
+        <main>
+            <div class="weather-app-content">
+                <div>
+                    <h1 class="weather-app-city" id="weather-app-city"></h1>
+
+                    <p class="weather-app-info">
+                        <span class="weather-app-info-day" id="time"></span><br />
+                        <span id="weather-description"></span>
+                        <br />
+                        <em>Humidity:</em> <strong id="weather-humidity"></strong>,
+                        <em>Wind:</em>
+                        <strong id="wind-speed"></strong>
+                    </p>
+                </div>
+                <div class="temperature-container">
+                    <div id="icon"></div>
+                    <div class="temperature-number" id="temperature-number"></div>
+                    <div class="temperature-value"> °C </div>
+                </div>
+            </div>
+
+            <div class="weather-forecast" id="forecast"></div>
+        </main>
+        <footer>
+            <p>
+                This project was coded by
+                <a href="https://www.shecodes.io/" target="_blank"> Nikolett Szabo </a>
+                and is open-sourced
+                <a href="https://github.com/fadzsii" target="_blank">
+                    on GitHub</a>
+                and
+                <a href="https://app.netlify.com/teams/nikolett-szabo2017/overview" target="_blank">hosted on Netlify</a>
+            </p>
+        </footer>
+    </div>
+    <script src="src/index.js"></script>
+</body>
+
+</html>
